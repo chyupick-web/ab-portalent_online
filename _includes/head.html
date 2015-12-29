@@ -1,0 +1,15 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <meta property="og:title" content="海量海外买家、权威海关数据及海外债务追讨；透明公正评价功能；海外买家寻找中国供应商的社交型B2B网站 - 外贸公社"/>
+  <meta property="og:image" content="http://www.tradesparq.com/img/share_ts_logo.jpg"/>
+  <meta property="og:description" content="外贸公社: 出口商，供应商，评价，评级，验证贸易合作伙伴，验证买家，验证卖家，美国海关数据，加好友，好友关系"/>
+  <meta property="og:url" content="http://landing.tradesparq.com/" />
+
+	<link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}">
+</head>
